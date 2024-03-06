@@ -1,33 +1,85 @@
 /* your code here */
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
 .logo_name
 {
-	font-size: 40px;
+	font-size: 30px;
 }
 
 table
 {
 	color: white;
-	line-height: 22px;
 }
 td>a
 {
 	text-decoration: none;
-	color: white;
+	color: #C1C1C1;
 }
-
 td
 {
 	font-size: 12px;
-	color: #cococo;
+	color: #C1C1C1;
+	padding-top: 10px;
 }
-.link-boxes
+th
 {
-	
+	position: relative;
 }
+th::after
+{
+	content: '';
+	height:1px;
+	width:30px;
+	background:white;
+	position:absolute;
+	bottom:-3px;
+	left: 0; 
+}
+
+.icon-size
+{
+	color: white;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	padding-top: 2px;	
+}
+
+#facebook
+{
+	background-color: #4267B2;
+	padding-left: 9px;
+}
+#twitter
+{
+	background-color: #1DA1F2;
+	padding-top: 3px;
+	padding-left: 7px;
+}
+#instagram
+{
+	background-color: deeppink;
+	padding-left: 8px;
+}
+#linkedin
+{
+	background-color: #0077B5;
+	padding-left: 8px;
+}
+#youtube
+{
+	background-color: red;
+	padding-left: 5px;
+}
+
+
 
 .bottom-details
 {
 	background-color: #2C303A;
-	color: whitesmoke;
-	font-size: 18px
+	color: #AFB1B5;
+	font-size: 16px;
 }
